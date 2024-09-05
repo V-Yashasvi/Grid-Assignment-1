@@ -1,0 +1,39 @@
+*{
+    height:auto;
+    overflow-x: hidden;
+}
+body{
+    margin:8vh;
+    background-color: #F6F4F1;
+}
+.container{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows:repeat(3, 1fr);
+    gap:20px;
+    /* border: 2px solid green; */
+}
+.box{
+    box-sizing:border-box;  
+    /* border: 2px solid red; */
+    background-color: white;
+    border-radius: 0.8rem;
+    box-shadow: 0 0 10px #f0ad317b;
+
+}
+.heading{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:20px;
+    font-weight:550;
+    display: flex;
+    justify-content:space-between;
+    margin:2rem;
+    /* border:2px solid green; */
+}
+.cost{
+    color:#c47b0d
+}
+.coffee-info{
+    margin:1.5rem;
+    color:#8e8d8d
+}
